@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/quiz-math-multiply/static/css/main.bc0de835.css",
+    "main.css": "/quiz-math-multiply/static/css/main.5c91cc57.css",
     "main.js": "/quiz-math-multiply/static/js/main.bacf8353.js",
     "static/js/787.302b9bcc.chunk.js": "/quiz-math-multiply/static/js/787.302b9bcc.chunk.js",
     "static/media/student-02.png": "/quiz-math-multiply/static/media/student-02.003f7c80de358703cbae.png",
     "static/media/logomathlong-11.png": "/quiz-math-multiply/static/media/logomathlong-11.8c1e54178b46374cad49.png",
     "index.html": "/quiz-math-multiply/index.html",
-    "main.bc0de835.css.map": "/quiz-math-multiply/static/css/main.bc0de835.css.map",
+    "main.5c91cc57.css.map": "/quiz-math-multiply/static/css/main.5c91cc57.css.map",
     "main.bacf8353.js.map": "/quiz-math-multiply/static/js/main.bacf8353.js.map",
     "787.302b9bcc.chunk.js.map": "/quiz-math-multiply/static/js/787.302b9bcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc0de835.css",
+    "static/css/main.5c91cc57.css",
     "static/js/main.bacf8353.js"
   ]
 }
