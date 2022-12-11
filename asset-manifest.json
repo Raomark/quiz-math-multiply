@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/quiz-math-multiply/static/css/main.5c91cc57.css",
-    "main.js": "/quiz-math-multiply/static/js/main.6de871af.js",
+    "main.css": "/quiz-math-multiply/static/css/main.12d0c880.css",
+    "main.js": "/quiz-math-multiply/static/js/main.702adece.js",
     "static/js/787.302b9bcc.chunk.js": "/quiz-math-multiply/static/js/787.302b9bcc.chunk.js",
     "static/media/student-02.png": "/quiz-math-multiply/static/media/student-02.003f7c80de358703cbae.png",
     "static/media/logomathlong-11.png": "/quiz-math-multiply/static/media/logomathlong-11.8c1e54178b46374cad49.png",
     "index.html": "/quiz-math-multiply/index.html",
-    "main.5c91cc57.css.map": "/quiz-math-multiply/static/css/main.5c91cc57.css.map",
-    "main.6de871af.js.map": "/quiz-math-multiply/static/js/main.6de871af.js.map",
+    "main.12d0c880.css.map": "/quiz-math-multiply/static/css/main.12d0c880.css.map",
+    "main.702adece.js.map": "/quiz-math-multiply/static/js/main.702adece.js.map",
     "787.302b9bcc.chunk.js.map": "/quiz-math-multiply/static/js/787.302b9bcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c91cc57.css",
-    "static/js/main.6de871af.js"
+    "static/css/main.12d0c880.css",
+    "static/js/main.702adece.js"
   ]
 }
