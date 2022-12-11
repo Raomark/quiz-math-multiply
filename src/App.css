@@ -110,34 +110,35 @@ header img {
 
 @media screen and (max-width:600px) {
   .header-left h1 {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     line-height: 35px;
   }
   .container-right img {
     width: 100%;
   }
+  .header-left {
+    display: flex;
+    justify-content: center;
+  }
 .text-left p {
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.6rem;
   line-height: 25px;
+  text-align: center;
+  
 }
 .text-left{
   margin-bottom: 20px;
 }
-.btn-left button {
-  background-color: #F37250;
-  color: #fff;
-  border: none;
-  width: 122px;
-  height: 32px;
-  cursor: pointer;
-  font-size: 1.2rem;
-}
 .app {
-  padding: 0 2.2rem;
+  padding: 0 2.5rem;
 }
 header img {
   width: 100px;
+}
+.btn-left  {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
 
 }
