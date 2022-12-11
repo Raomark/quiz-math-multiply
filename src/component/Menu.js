@@ -22,7 +22,7 @@ function Menu() {
                         <p>ถึงจะถือว่าผู้เรียนทำแบบทดสอบผ่าน</p>
                     </div>
                     <div className="btn-left">
-                        <button>เริ่มทำแบบทดสอบ</button>
+                        <button onClick={()=>setState('quiz')}>เริ่มทำแบบทดสอบ</button>
                     </div>
                 </div>
                 <div className="container-right">

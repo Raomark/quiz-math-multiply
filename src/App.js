@@ -8,8 +8,9 @@ export const DataContext = createContext();
 
 function App() {
   const [state,setState] = useState('menu');
+  const [score,setScore] = useState(0)
   return (
-    <DataContext.Provider value={{state,setState}}>
+    <DataContext.Provider value={{state,setState,score,setScore}}>
         <div className='app'>
                 {state === 'menu' && <Menu/>}
                 {state === 'quiz' && <Quiz/>}

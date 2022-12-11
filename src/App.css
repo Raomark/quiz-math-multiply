@@ -12,7 +12,7 @@ html{
 }
 .app {
   min-height: 100vh;
-  padding: 0 6.1rem;
+  /* padding: 0 6.1rem; */
   overflow: hidden;
   width: 100%;
 }
@@ -24,6 +24,7 @@ img {
   max-width: 114rem;
   width: 100%;
   margin: 0 auto;
+  padding: 0 6.1rem;
 }
 header {
   height: 9.5rem;
@@ -85,18 +86,13 @@ header img {
   height: 42px;
   cursor: pointer;
 }
-
-
-@media screen and (max-width:1200px) {
-  .header-left h1 {
-    font-size: 3.6rem;
-    line-height: 50px;
-  }
-  .container-right img {
-    width: 48rem;
-  }
-  
+.btn-left button:active {
+  background-color: #ef5f38;
+  border-radius: 8px;
 }
+
+
+
 @media screen and (max-width:992px) {
   .content-area {
     display: grid;
@@ -116,24 +112,27 @@ header img {
   .container-right img {
     width: 100%;
   }
+  .container{
+    padding: 0 2.4rem;
+  }
   .header-left {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
   }
 .text-left p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 25px;
   text-align: center;
   
 }
 .text-left{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-.app {
-  padding: 0 2.5rem;
-}
+
 header img {
   width: 100px;
+  margin: 0 auto;
 }
 .btn-left  {
   display: flex;
