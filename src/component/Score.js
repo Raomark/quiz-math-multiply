@@ -14,7 +14,7 @@ function Score() {
     <div className='container-score'>
        <div className="wrapper-score">
         <h1>คะแนนของคุณคือ</h1>
-        
+
          <h2>
             <AnimatedNumber
                   value = {score}

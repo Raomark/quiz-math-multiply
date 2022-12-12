@@ -1,19 +1,21 @@
 import React,{useContext, useEffect, useState} from 'react'
 import './quiz.css'
 import question from '../question'
+import Backbutton from './Buttonback'
 import { DataContext } from '../App';
 function Quiz() {
     const [current,setCurrent] = useState(0)
     const [select, setSelect] = useState('');
-
     const {score,setScore} = useContext(DataContext)
     const {state,setState} = useContext(DataContext)
+
      useEffect(()=>{
          checkAnswer()
           // eslint-disable-next-line
      },[select])  
-     
-
+    
+   
+    
      const checkAnswer =()=> {
          if(select !== ''){
             if(select === question[current].answer){
@@ -33,6 +35,7 @@ function Quiz() {
             setState('score')
         }
      }
+
 
   return (
     <div className='container-quiz'>
